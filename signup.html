@@ -1,49 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container3">
         <div class="sign-up">
             <h2>Sign-up</h2>
         </div>
-        <form action="/action.php">
+        <form id="signup">
             <div class="email">
-                <input type="text" placeholder="Email address">
+                <input type="text" id="email" placeholder="Email address">
                 <i class="fa-solid fa-envelope"></i>
+                <span id="emailError" class="error"></span>
             </div>
             <br><br>
             <div class="username">
-                <input type="text" placeholder="Username">
+                <input type="text" id="username" placeholder="Username">
+                <span id="usernameError" class="error"></span>
             </div>
             <br><br>
             <div class="text">
                 <p>Set Password</p>
             </div>
             <div class="password">
-                <input type="password" placeholder="Password*">
+                <input type="password" id="pass1" placeholder="Password*">
                 <i class="fa-solid fa-lock"></i>
+                <span id="pass1Error" class="error"></span>
             </div>
             <div class="rpassword">
-                <input type="password" placeholder="Re-enter Password*">
+                <input type="password" id="pass2" placeholder="Re-enter Password*">
                 <i class="fa-solid fa-lock"></i>
+                <span id="pass2Error" class="error"></span>
             </div>
             <br>
+            <p id="signupSuccess"></p>
         </form><br>
-        <!-- <div class="fpassword">
-            <label><input type="checkbox">Remember Me </label>
-            <a href="fp.html" target="_blank">Forgot password?</a>
-        </div> -->
-        <div class="submit"><input type="submit" value="submit"></div>
+        <div class="submit"><input type="submit" id="sub" value="submit"></div>
         <br>
-        <!-- <div class="dacc">
-            <p>Don't have account?</p><a href="#" target="_blank">Sign-up</a>
-        </div> -->
     </div>
-    <script src="index.js"></script>
+    <script src="signup.js"></script>
 </body>
+
 </html>
