@@ -95,13 +95,7 @@ input[type="checkbox"] {
     margin-top: 30px;
 }
 
-/* .email,.password input{
-    position:fixed;
-}
-.email,.password i{
-    position:absolute;
-    right:200px;
-} */
+
 .br-0 {
     border-right: 0;
 }
