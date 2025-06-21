@@ -56,6 +56,6 @@ document.getElementById("sub").addEventListener("click", async function (e) {
   localStorage.setItem("username", username.value);
   localStorage.setItem("hashedPassword", hashedPassword);
 
-  signupSuccess.textContent = "Signup successful! Now you can log in.";
+  signupSuccess.innerHTML = 'Signup successful! Now you can <a href="index.html" style="text-decoration:none;">log in</a> ';
   document.getElementById("signupForm").reset();
 });

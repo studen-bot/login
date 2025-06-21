@@ -36,20 +36,17 @@ document.getElementById("log").addEventListener("click", async function (e) {
   const storedEmail = localStorage.getItem("email");
   const storedHash = localStorage.getItem("hashedPassword");
 
-  
   if (!storedEmail || !storedHash) {
     loginMessage.textContent = "No user registered. Please sign up.";
     loginMessage.className = "error";
     return;
   }
 
-
   if (emailInput.value !== storedEmail) {
     emailError.textContent = "Invalid email";
     return;
   }
 
-  
   const enteredHash = await hashPassword(passwordInput.value);
   if (enteredHash !== storedHash) {
     passwordError.textContent = "Incorrect password";

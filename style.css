@@ -6,8 +6,7 @@
 body {
     background-image: url("sc6.png");
     background-size: cover;
-    /* background-color: #D1D8BE; */
-    /* background-color:rgb(44, 42, 42); */
+
 }
 
 .container1 {
@@ -26,7 +25,7 @@ body {
     margin-right: 300px;
     height: 70vh;
     position: fixed;
-    /* border:0.2px solid white; */
+
 }
 
 .container1:hover {
@@ -73,7 +72,7 @@ body {
 }
 
 .fpassword a {
-    /* color:white; */
+
     text-decoration: none;
     margin: 70px;
 
@@ -137,7 +136,7 @@ p {
 
 .length {
     padding: 0px;
-    /* border:1px solid rgb(186, 181, 181); */
+
     border-radius: 5px;
     margin-top: 0px;
     margin-left: 0px;
@@ -155,14 +154,10 @@ p {
     cursor: pointer;
 }
 
-/* .button{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-} */
+
 .button a {
     text-decoration: none;
-    /* color:white; */
+   
     margin: 20px;
     position: relative;
 
@@ -177,8 +172,6 @@ p {
     border-radius: 60px 70px 60px 70px;
     justify-content: center;
     align-items: center;
-    /* border:0.2px solid white; */
-    /* box-shadow: 1px 1px 30px white; */
     margin-top: 99px;
     margin-bottom: 90px;
     margin-left: 300px;
@@ -232,8 +225,7 @@ p {
     background-image: url("sc5.png");
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    /* background-color: #A7C1A8; */
+    flex-direction: column;  
     border-radius: 60px 70px 60px 70px;
     border: transparent;
     justify-content: center;
@@ -246,8 +238,6 @@ p {
     position: fixed;
     padding-left: 30px;
     padding-right: 30px;
-    /* border:0.2px solid white; */
-    /* filter:blur(5); */
 }
 
 .container3:hover {
@@ -264,7 +254,6 @@ p {
     padding: 10px;
     width: 350px;
     border-radius: 10px;
-    /* filter:drop-shadow(1px 1px 5px white); */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
